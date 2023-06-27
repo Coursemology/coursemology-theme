@@ -1,22 +1,16 @@
-@import 'coursemology.org/variables';
-@import 'application';
-@import 'pygments-css/github';
+@import "coursemology.org/variables";
+@import "application";
+@import "pygments-css/github";
 
 @mixin box-shadow($v-shadow, $blur, $spread) {
   box-shadow: 0 $v-shadow $blur $spread $gray-light;
 }
 
-html {
-  min-height: 100%;
-  position: relative;
-}
-
-body {
+.root.container-fluid.footer-buffer {
   padding-top: $navbar-height + $navbar-margin-bottom;
 }
 
 .footer-buffer {
-
   @media screen and (max-width: 937px) {
     padding-bottom: 120px;
   }
@@ -57,7 +51,6 @@ footer {
   }
 
   .nav-pills {
-
     .footer-link {
       a {
         color: $gray-light;
