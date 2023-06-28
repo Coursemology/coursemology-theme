@@ -6,8 +6,8 @@
   box-shadow: 0 $v-shadow $blur $spread $gray-light;
 }
 
-.root.container-fluid.footer-buffer {
-  padding-top: $navbar-height + $navbar-margin-bottom;
+body {
+  position: relative;
 }
 
 .footer-buffer {
