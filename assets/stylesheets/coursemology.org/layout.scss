@@ -6,11 +6,13 @@
   box-shadow: 0 $v-shadow $blur $spread $gray-light;
 }
 
-.root.container-fluid.footer-buffer {
-  padding-top: $navbar-height + $navbar-margin-bottom;
+body {
+  position: relative;
 }
 
 .footer-buffer {
+  padding-top: 5rem;
+
   @media screen and (max-width: 937px) {
     padding-bottom: 120px;
   }
@@ -31,7 +33,7 @@
   }
 }
 
-footer {
+.static-footer {
   border-top: 1px solid $gray-lighter;
   bottom: 0;
   color: $gray-light;
